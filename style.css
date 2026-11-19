@@ -1,0 +1,37 @@
+.icon{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.forecast-box {
+    background-color: #fa2f06;   /* slightly lighter gray than black */
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgb(243, 3, 3); /* subtle white glow */
+}
+
+/* Each forecast hour item */
+.forecast-hour {
+    flex: 1;
+    text-align: center;
+    color: #ffffff;
+}
+
+.forecast-hour p {
+    margin: 5px 0;
+}
+
+.weather-card{
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.forecast-day{
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 15px;
+    width: 80px;
+}
